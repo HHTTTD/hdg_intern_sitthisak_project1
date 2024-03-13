@@ -2,5 +2,4 @@
 
 run the app:
      > SET DEBUG=hdg-intern-sitthisak-project1:* ; npm start
-     > export DEBUG=hdg-intern-sitthisak-project1:* && npm start
 
