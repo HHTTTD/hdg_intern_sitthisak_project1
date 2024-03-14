@@ -4,4 +4,4 @@ run the app:
      > SET DEBUG=hdg-intern-sitthisak-project1:* ; npm start
 
 
-http://localhost:3000/products
+http://localhost:3000
