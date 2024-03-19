@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+require('dotenv').config();
 const mongoose = require('mongoose');
 const products = require('./routes/products');
 const post = require('./routes/post');
@@ -10,7 +11,7 @@ const comment = require('./routes/comment');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect(process.env.DB_HOST)
         .then(() => console.log('-Connection Successfully!-'))
         .catch((err) => console.error(err))
 
