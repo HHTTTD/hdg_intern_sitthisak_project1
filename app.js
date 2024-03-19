@@ -10,7 +10,7 @@ const comment = require('./routes/comment');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost:27017')
+mongoose.connect(process.env.DB_HOST)
         .then(() => console.log('-Connection Successfully!-'))
         .catch((err) => console.error(err))
 
