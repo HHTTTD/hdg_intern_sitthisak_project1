@@ -1,8 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/background.gif");
+  background-size: cover; /* ให้ภาพพื้นหลังขยายเต็มขอบเว็บ */
+  background-position: center; /* ตำแหน่งภาพพื้นหลังตรงกลางของหน้าเว็บ */
+  background-repeat: no-repeat; /* ไม่ให้ภาพพื้นหลังทำซ้ำ */
 }
+
 
 a {
   color: #00B7FF;
+}
+
+p {
+  color: white;
+}
+
+.image {
+  margin-top: 20px; /* ระยะห่างด้านบนของภาพ */
+  margin-bottom: 20px; /* ระยะห่างด้านล่างของภาพ */
+  margin-left: 30px; /* ระยะห่างด้านซ้ายของภาพ */
+  margin-right: 30px; /* ระยะห่างด้านขวาของภาพ */
 }

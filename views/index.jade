@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1(style='background-color: white; width: fit-content; border: 2px solid black; padding: 10px;')= title
+  p(style='border: 2px solid black; padding: 10px; width: fit-content;') ยินดีต้อนรับ #{title}
+  
+  div(style='background-image: url("/images/background1.gif");')
+    img(src='/images/Test.jpg', alt='Example Image', width='640', height='360', class='image')
+    img(src='/images/Test1.gif', alt='Example Image1', width='640', height='360', class='image')
