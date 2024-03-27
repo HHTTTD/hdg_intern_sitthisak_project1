@@ -7,8 +7,7 @@
       }
     ],
     "routes": [
-      { "src": "/", "dest": "/routes/index.js" },
-      { "src": "/teat", "dest": "/routes/index.js" }
+      { "src": "/", "dest": "/routes/index.js" }
     ]
   }
   
