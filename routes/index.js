@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express_Test_API#สิทธิศักดิ์' });
 });
 
-router.get('/teat', (req, res, next) => {
+router.get('/test', (req, res, next) => {
   res.send('Hello from the server!');
 });
 
