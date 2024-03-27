@@ -23,19 +23,9 @@ const usersRouter = require('./routes/users');
 
 const app = express();
 
-// Sessions
-app.use(session({
-  secret: "secretkey",
-  saveUninitialized: true,
-  resave: false
-}));
-
-// PassportJS
-app.use(passport.initialize());
-app.use(passport.session());
 
 // Cross Origin Resource Sharing
-const whitelist = ['https://healworld.me/', 'http://localhost:3050/', 'http://localhost:3003/', 'http://example.com'];
+const whitelist = ['https://healworld.me/', 'http://localhost:3003/', 'http://example11.com'];
 const corsOptions = {
   origin: (origin, callback) => {
     if (!origin) {
