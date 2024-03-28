@@ -25,7 +25,7 @@ const app = express();
 
 
 // Cross Origin Resource Sharing
-const whitelist = ['https://healworld.me/', 'http://localhost:3003/', 'http://example11.com'];
+const whitelist = ['https://healworld.me/'];
 const corsOptions = {
   origin: (origin, callback) => {
     if (!origin) {
